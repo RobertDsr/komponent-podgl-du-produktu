@@ -1,18 +1,17 @@
 @media (max-width: 820px) {
     .columns {
-        height: 70vh;
+        height: 100vh;
         flex-direction: column;
         width: 80%;
     }
     
     .columnLeft {
-        border-radius: 7px 7px 0 0;
-        height: 70%;
+        border-radius: ;
+        min-height: 50vh;
         width: 100%;
     }
 
     .columnRight {
-        border-radius: 0 0 7px 7px;
         width: 100%;
     }
 }
