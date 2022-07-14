@@ -1,0 +1,15 @@
+@media (max-width: 820px) {
+    .columns {
+        flex-direction: column;
+        width: 80%;
+    }
+    
+    .columnLeft {
+        background: url(../../images/drawers.jpg)center/cover;
+        width: 100%;
+    }
+
+    .columnRigth {
+        width: 100%;
+    }
+}
