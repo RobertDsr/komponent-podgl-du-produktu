@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 13px;
+}
+.wrapper {
+    align-items: center;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    min-width: 100vw;
+    max-width: 1440px;
+    overflow: hidden;
+}
+
+.columns {
+    display: flex;
+    padding: 3%;
+    // justify-content: space-around;
+    width: 50%;
+}
+
+.columnLeft {
+    background: url(../../images/drawers.jpg) center/cover;
+    width: 40%;
+}
+
+.columnRight {
+    background-color: #fff;
+    padding: 10% 3% 3%;
+    width: 60%;
+}
+
+.title {
+    font-size: 1.45rem;
+}
+
+.articleDescription p {
+    font-size: 1.1rem;
+    padding: 10% 3% 0;
+}
+
+.author {
+    display: flex;
+    padding: 10px;
+    align-items: flex-end;
+}
+
+.imgAuthor {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.divAuthorName {
+    
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+

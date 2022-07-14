@@ -1,0 +1,33 @@
+.wrapper {
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    min-width: 100vw;
+    max-width: 1440px;
+    overflow: hidden;
+}
+
+.columns {
+    background-color: #fff;
+    display: flex;
+    padding: 3%;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.columnLeft {
+    background-image: url(../../images/drawers.jpg);
+    width: 30%;
+}
+
+.columnRight {
+    width: 60%;
+}
+
+.author {
+    display: flex;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
